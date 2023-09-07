@@ -7,7 +7,7 @@ import { useState } from "react";
 import { formatCurrency } from "../../utils/helpers";
 import store from "../../store";
 import { fetchAddress } from "../user/userSlice";
-import { EmptyCart } from "../cart/EmptyCart";
+import EmptyCart  from "../cart/EmptyCart";
 
 // https://uibakery.io/regex-library/phone-number
 const isValidPhone = (str) =>
